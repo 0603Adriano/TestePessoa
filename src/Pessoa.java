@@ -9,12 +9,12 @@ public class Pessoa {
 	public double imc;
 	
 	//Métodos
-	public double CalculaIMC() {
+	public double calculaIMC() {
 		double calc = peso / (altura * altura);
 		return calc;
 	}
 	
-	public void MostraPessoa() {
+	public void mostraPessoa() {
 		String txt = "A pessoa: " + nome;
 		txt += "\n com idade: " + idade;
 		txt += "\n com peso: " + peso;
